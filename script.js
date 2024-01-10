@@ -16,7 +16,7 @@ function displayAmnt(){
         amount=50*0.75+100*1.00+(unit-150)*1.30;
     }
     else if(unit>250){
-        amount+=50*0.75+100*1.00+100*1.30+(unit-250)*1.50;
+        amount=50*0.75+100*1.00+100*1.30+(unit-250)*1.50;
     }
     else{
          alert("Enter units");
